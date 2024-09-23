@@ -12,6 +12,7 @@
       - httpd
       - httpd:2.4-alpine
       - mariadb
+      - nginx
   tasks:
     - name: Configuring network
       shell: >
