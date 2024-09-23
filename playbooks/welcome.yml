@@ -5,7 +5,7 @@
   gather_facts: False
   become: true
   tasks:
-  - name: Welcome to the EX180 Exam Study Environment
+  - name: Welcome to the EX188 Exam Study Environment
     debug:
       msg:
         - ' The registry server and workstation have been set up successfully!'
